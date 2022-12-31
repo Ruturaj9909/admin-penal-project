@@ -180,54 +180,66 @@
             <!-- Navbar End -->
 
             <!-- Blank Start -->
-            
-            <div class="container-lfuid pt-4 px-4">
-                <div class="row  bg-light rounded align-items-center justify-content-center mx-0">
+            <h3>branch master</h3>
+            <div class="container-fluid pt-4 px-4">
+                <div class="row vh-100 bg-light rounded  mx-0">
+                <div class="card">
+  <h4 class="card-header">new branch</h4>
+  <div class="card-body">
+
                 <form class="row g-3">
+                <!-- <div class="col-md-6 text-center"> -->
+                        <!-- <h3>This is blank page</h3> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+            <!-- </div> -->
                 
 
   <div class="col-md-4">
-    <label for="validationDefault01" class="form-label">First name</label>
-    <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+    <label for="validationDefault01" class="form-label"> name</label>
+    <input type="text" class="form-control" id="name" value=""name="name
+    " required>
   </div>
   <div class="col-md-4">
-    <label for="validationDefault02" class="form-label">Last name</label>
-    <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+    <label for="validationDefault02" class="form-label">city</label>
+    <input type="text" class="form-control" id="city" value=""name="name" required>
   </div>
   <div class="col-md-4">
-    <label for="validationDefaultUsername" class="form-label">Username</label>
+    <label for="validationDefaultUsername" class="form-label">pincode</label>
     <div class="input-group">
-      <span class="input-group-text" id="inputGroupPrepend2">@</span>
-      <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+      <span class="input-group-text" id="inputGroupPrepend2"></span>
+      <input type="number" class="form-control" id="number"  name="number" required>
     </div>
   </div>
-  <div class="col-md-6">
-    <label for="validationDefault03" class="form-label">City</label>
-    <input type="text" class="form-control" id="validationDefault03" required>
+  <div class="col-md-3">
+  <div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">remakrs</label>
+</div>
+</div>
+<div class="col-md-3">
+    <label for="validationDefault05" class="form-label">e-mail</label>
+    <input type="email" class="form-control" id="email" required>
   </div>
   <div class="col-md-3">
-    <label for="validationDefault04" class="form-label">State</label>
-    <select class="form-select" id="validationDefault04" required>
-      <option selected disabled value="">Choose...</option>
-      <option>...</option>
-    </select>
-  </div>
-  <div class="col-md-3">
-    <label for="validationDefault05" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="validationDefault05" required>
+    <label for="validationDefault05" class="form-label">password</label>
+    <input type="password" class="form-control" id="password" required>
   </div>
   <div class="col-12">
-    <div class="form-check">
+    <!-- <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
       <label class="form-check-label" for="invalidCheck2">
         Agree to terms and conditions
       </label>
-    </div>
+    </div> -->
   </div>
   <div class="col-12">
     <button class="btn btn-primary" type="submit">Submit form</button>
+    <button class="btn btn-secondary" type="reset">reset</button>
   </div>
 </form>
+
+  </div>
 <div class="col-12">
 
 
@@ -237,13 +249,13 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">First Name</th>
-                                            <th scope="col">Last Name</th>
+                                            
+                                            <th scope="col"> Name</th>
+                                            <th scope="col">city</th>
+                                            <th scope="col">remarks</th>
                                             <th scope="col">Email</th>
-                                            <th scope="col">Country</th>
-                                            <th scope="col">ZIP</th>
-                                            <th scope="col">Status</th>
+                                            <th scope="col">pincode</th>
+                                            
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -253,8 +265,8 @@
                                             <td>Doe</td>
                                             <td>jhon@email.com</td>
                                             <td>USA</td>
-                                            <td>123</td>
-                                            <td>Member</td>
+                                            
+                                            
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
@@ -262,17 +274,17 @@
                                             <td>Otto</td>
                                             <td>mark@email.com</td>
                                             <td>UK</td>
-                                            <td>456</td>
-                                            <td>Member</td>
-                                        </tr>
+                                            
+                                                                                   </tr>
                                         <tr>
                                             <th scope="row">3</th>
                                             <td>Jacob</td>
                                             <td>Thornton</td>
                                             <td>jacob@email.com</td>
                                             <td>AU</td>
-                                            <td>789</td>
-                                            <td>Member</td>
+                                            
+                                            
+                                            
                                         </tr>
                                     </tbody>
                                 </table>
