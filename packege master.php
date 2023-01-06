@@ -178,8 +178,9 @@
                 </div>
             </nav>
             <!-- Navbar End -->
+            
+                
 
-            <!-- Blank Start -->
             <h3>branch master</h3>
             <div class="container-fluid pt-4 px-4">
                 <div class="row vh-100 bg-light rounded  mx-0">
@@ -195,58 +196,35 @@
             <!-- </div> -->
                 
 
-  <div class="col-md-4">
+            <div class="col-md-4">
     <label for="validationDefault01" class="form-label"> name</label>
     <input type="text" class="form-control" id="name" value=""name="name
     " required>
   </div>
   <div class="col-md-4">
-    <label for="validationDefault02" class="form-label">city</label>
-    <input type="text" class="form-control" id="city" value=""name="name" required>
-  </div>
-  <div class="col-md-4">
-    <label for="validationDefaultUsername" class="form-label">pincode</label>
-    <div class="input-group">
-      <span class="input-group-text" id="inputGroupPrepend2"></span>
-      <input type="number" class="form-control" id="number"  name="number" required>
-    </div>
-  </div>
-  <div class="col-md-3">
   <div class="form-floating">
   <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
   <label for="floatingTextarea2">remakrs</label>
 </div>
 </div>
-<div class="col-md-3">
-    <label for="validationDefault05" class="form-label">e-mail</label>
-    <input type="email" class="form-control" id="email" required>
+  <div class="col-md-4">
+    <label for="validationDefaultUsername" class="form-label">amount</label>
+    <div class="input-group">
+      <input type="amount" class="form-control" id="amount"  name="amount" required>
+    </div>
   </div>
-  <div class="col-md-3">
-    <label for="validationDefault05" class="form-label">password</label>
-    <input type="password" class="form-control" id="password" required>
-  </div>
-  <div class="col-12">
-    <!-- <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-      <label class="form-check-label" for="invalidCheck2">
-        Agree to terms and conditions
-      </label>
-    </div> -->
   
     
     
-
-  </div>
-    
-<div class="col-12">
-
-
-
-<div class="col-12">
+    <div class="col-12">
     <button class="btn btn-primary" type="submit">Submit form</button>
-  </div><Br>
+  </div>
+  
+<div class="col-12">
+</div>
+</div>
 
-                        <div class="bg-light rounded h-100 p-4">
+<div class="bg-light rounded h-100 p-4">
                             <h6 class="mb-4">Responsive Table</h6>
                             <div class="table-responsive">
                                 <table class="table">
@@ -298,6 +276,11 @@
             </div>
                 </div>    
                    
+  
+
+           
+ 
+
 
                
     <!-- JavaScript Libraries -->
